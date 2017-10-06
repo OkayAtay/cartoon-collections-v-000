@@ -8,11 +8,7 @@ end
 
 def long_planeteer_calls(calls_long)
   calls_long.each {|c| c.length>4}
-  if true
-    true
-  else
-    false
-  end
+  returns true
 end
 
 def find_the_cheese# code an argument here
