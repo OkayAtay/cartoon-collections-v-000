@@ -19,6 +19,4 @@ def find_the_cheese(array)
   array.find{|food|
     food == cheese_types.each{|c|}
   }
-
-
 end
