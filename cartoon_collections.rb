@@ -6,8 +6,8 @@ def summon_captain_planet(veggies)
   veggies.collect! {|w| w.capitalize + "!"}
 end
 
-def long_planeteer_calls(calls_long)
-  if calls_long.all? {|c| c.length<4}
+def long_planeteer_calls(calls)
+  if calls.all? {|c| c.length<4}
     return false
   else
     return true
