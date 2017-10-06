@@ -16,5 +16,6 @@ end
 
 def find_the_cheese(array)
   if !array.include?("cheddar","gouda","camembert")
+    nil
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
