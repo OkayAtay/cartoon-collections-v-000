@@ -7,7 +7,7 @@ def summon_captain_planet(veggies)
 end
 
 def long_planeteer_calls(calls_long)
-  # Your code here
+  calls_long.each {|c| c.length>4}
 end
 
 def find_the_cheese# code an argument here
