@@ -20,3 +20,5 @@ def find_the_cheese(array)
     food == cheese_types.each{|c|}
   }
 end
+
+array = ["banana", "cheddar", "sock"]
