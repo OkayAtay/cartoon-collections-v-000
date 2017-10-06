@@ -10,7 +10,7 @@ def long_planeteer_calls(calls_long)
   calls_long.any? {|c| c.length>4}
   return true
   if calls_long.all? {|c| c.length<4}
-    true
+    false
   end
 end
 
