@@ -7,9 +7,9 @@ def summon_captain_planet(veggies)
 end
 
 def long_planeteer_calls(calls)
-  if calls.all? {|c| c.length<4} return false
+  if calls.any? {|c| c.length>4} 
   else
-    return true
+    false
   end
 end
 
