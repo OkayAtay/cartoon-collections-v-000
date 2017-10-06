@@ -22,3 +22,5 @@ def find_the_cheese(array)
 end
 
 array = ["banana", "cheddar", "sock"]
+
+find_the_cheese(array)
