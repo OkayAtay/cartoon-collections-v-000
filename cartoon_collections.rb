@@ -21,3 +21,9 @@ def find_the_cheese(potentially_cheesy_items)
     cheeses.include?(maybe_cheese)
   end
 end
+
+def find_the_cheese(food)
+  cheeses = %w(cheddar gouda camembert)
+   food.find {|f| cheeses.include?(f}
+end
+
